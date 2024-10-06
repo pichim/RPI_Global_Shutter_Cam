@@ -1,0 +1,15 @@
+rpi@raspberrypi:~ $ rpicam-hello
+[0:11:48.604510288] [2852]  INFO Camera camera_manager.cpp:316 libcamera v0.3.1+50-69a894c4
+[0:11:48.611914399] [2855]  INFO RPI pisp.cpp:695 libpisp version v1.0.7 28196ed6edcf 29-08-2024 (16:33:32)
+[0:11:48.628786138] [2855]  INFO RPI pisp.cpp:1154 Registered camera /base/axi/pcie@120000/rp1/i2c@88000/imx296@1a to CFE device /dev/media0 and ISP device /dev/media1 using PiSP variant BCM2712_C0
+Made X/EGL preview window
+Mode selection for 728:544:12:P
+    SRGGB10_CSI2P,1456x1088/0 - Score: 1318
+Stream configuration adjusted
+[0:11:48.996514315] [2852]  INFO Camera camera.cpp:1191 configuring streams: (0) 728x544-YUV420 (1) 1456x1088-BGGR_PISP_COMP1
+[0:11:48.996627999] [2855]  INFO RPI pisp.cpp:1450 Sensor: /base/axi/pcie@120000/rp1/i2c@88000/imx296@1a - Selected sensor format: 1456x1088-SBGGR10_1X10 - Selected CFE format: 1456x1088-PC1B
+rpi@raspberrypi:~ $ rpicam-hello --list
+Available cameras
+-----------------
+0 : imx296 [1456x1088 10-bit RGGB] (/base/axi/pcie@120000/rp1/i2c@88000/imx296@1a)
+    Modes: 'SRGGB10_CSI2P' : 1456x1088 [60.38 fps - (0, 0)/1456x1088 crop]
