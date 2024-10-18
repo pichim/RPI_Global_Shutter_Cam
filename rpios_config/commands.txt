@@ -1,0 +1,139 @@
+    1  raspicam-hello
+    2  raspcam-hello
+    3  sudo apt update
+    4  sudo apt -y upgrade
+    5  sudo reboot now
+    6  rpicam-hello
+    7  sudo apt update
+    8  sudo apt install -y timeshift
+    9  timeshift
+   10  sudo raspi-config
+   11  sudo reboot
+   12  ls
+   13  cd GIT_repositories/
+   14  sudo apt install -y xrdp
+   15  sudo reboot now
+   16  sudo ufw status
+   17  sudo iptables -L
+   18  whoami
+   19  ipconfig
+   20  ip
+   21  sudo systemctl status firewalld
+   22  ip addr show
+   23  whoami
+   24  sudo apt reboot
+   25  sudo reboot now
+   26  raspi-config
+   27  sudo raspi-config
+   28  sudo adduser pirdp
+   29  sudo nano /etc/
+   30  cd /etc
+   31  ls
+   32  cd X11
+   33  ls
+   34  cd ..
+   35  ls
+   36  cd ~
+   37  ls
+   38  cd thinclient_drives/
+   39  ls
+   40  cd ..
+   41  cd thinclient_drives/
+   42  ls -a
+   43  cd ..
+   44  rm -rf thinclient_drives/
+   45  ls
+   46  sudo apt remove xrdp
+   47  sudo apt purge xrdp
+   48  sudo update
+   49  sudo apt update
+   50  sudo apt upgrade -y
+   51  sudo apt autoremove
+   52  sudo find /etc /var /usr /lib -name "*xrdp*"
+   53  sudo apt install -y xrdp
+   54  hostname -I
+   55  raspi-config
+   56  sudo raspi-config
+   57  sudo reboot now
+   58  hostname -I
+   59  sudo nano /etc/xrdp/xorg.conf
+   60  ls
+   61  cd /etc
+   62  ls
+   63  cd X11
+   64  cd ~
+   65  sudo nano /etc/X11/xrdp/xorg.conf
+   66  sudo reboot
+   67  sudo reboot now
+   68  sudo raspi-config
+   69  rpicam-hello
+   70  rpicam-hello --framerate 60
+   71  rpicam-hello --framerate 60 --timeout 0
+   72  sudo apt update
+   73  sudo apt install -y flask
+   74  sudo apt update
+   75  sudo apt install python3-venv python3-pip -y
+   76  cd /path/to/your/project
+   77  python3 -m venv venv
+   78  python3 --version
+   79  pip3 --version
+   80  where python3
+   81  python3 where
+   82  which python3
+   83  /bin/python /home/pi/.vscode/extensions/ms-python.python-2024.16.0-linux-arm64/python_files/printEnvVariablesToFile.py /home/pi/.vscode/extensions/ms-python.python-2024.16.0-linux-arm64/python_files/deactivate/bash/envVars.txt
+   84  source venv/bin/activate
+   85  deactivate
+   86  sudo apt install libcap-dev
+   87  sudo apt remove libcap-dev
+   88  sudo apt install -y libcap-dev
+   89  libcamera
+   90  which python
+   91  which pip
+   92  python --version
+   93  pip install flask picamera2 opencv-python-headless
+   94  /home/pi/GIT_repositories/RPI_Global_Shutter_Cam/.venv/bin/python /home/pi/GIT_repositories/RPI_Global_Shutter_Cam/app.py
+   95  deactivate
+   96  /bin/python /home/pi/.vscode/extensions/ms-python.python-2024.16.0-linux-arm64/python_files/printEnvVariablesToFile.py /home/pi/.vscode/extensions/ms-python.python-2024.16.0-linux-arm64/python_files/deactivate/bash/envVars.txt
+   97  python3 -m venv --system-site-packages venv  # Recreate the virtual environment with access to system packages
+   98  python3 -m venv --system-site-packages venv
+   99  python3 -m venv --system-site-packages .venv
+  100  libcamera-hello
+  101  cd /home/pi/GIT_repositories/RPI_Global_Shutter_Cam
+  102  python3 -m venv --system-site-packages .venv
+  103  ls
+  104  ls -a
+  105  source .venv/bin/activate
+  106  pip install flask picamera2 opencv-python-headless
+  107  python app.py
+  108  /home/pi/GIT_repositories/RPI_Global_Shutter_Cam/.venv/bin/python /home/pi/GIT_repositories/RPI_Global_Shutter_Cam/app.py
+  109  /bin/python /home/pi/.vscode/extensions/ms-python.python-2024.16.0-linux-arm64/python_files/printEnvVariablesToFile.py /home/pi/.vscode/extensions/ms-python.python-2024.16.0-linux-arm64/python_files/deactivate/bash/envVars.txt
+  110  /home/pi/GIT_repositories/RPI_Global_Shutter_Cam/.venv/bin/python /home/pi/GIT_repositories/RPI_Global_Shutter_Cam/app.py
+  111  libacmera-hello 
+  112  rpicamera-hello 
+  113  rpicam-hello 
+  114  rpicam-hello --framerate 60 --timeout 0
+  115  rpicam-hello --framerate 120 --timeout 0
+  116  ls GIT_repositories/RPI_Global_Shutter_Cam/
+  117  python3 GIT_repositories/RPI_Global_Shutter_Cam/app.py
+  118  ls GIT_repositories/RPI_Global_Shutter_Cam/.venv/bin/
+  119  source GIT_repositories/RPI_Global_Shutter_Cam/.venv/bin/activate
+  120  cd GIT_repositories/RPI_Global_Shutter_Cam/
+  121  python3 app.py
+  122  /bin/python /home/pi/.vscode/extensions/ms-python.python-2024.16.0-linux-arm64/python_files/printEnvVariablesToFile.py /home/pi/.vscode/extensions/ms-python.python-2024.16.0-linux-arm64/python_files/deactivate/bash/envVars.txt
+  123  sudo apt install -s -y opensnap
+  124  sudo apt list
+  125  sudo apt update -y
+  126  sudo shutdown now
+  127  sudo apt update -y
+  128  sudo apt upgrade -y
+  129  reboot
+  130  sudp apt install -y rpi-imager
+  131  sudo apt install -y rpi-imager
+  132  lsblk
+  133  sudo apt update && sudo apt full-upgrade
+  134  sudo rpi-eeprom-update
+  135  sudo rpi-eeprom-update -a
+  136  sudo raspi-config
+  137  rpi-imager
+  138  ls
+  139  history > commands.txt

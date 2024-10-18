@@ -1,8 +1,9 @@
+import time
+import threading
+
 from flask import Flask, Response
 from picamera2 import Picamera2
 import cv2
-import time
-import threading
 
 app = Flask(__name__)
 
@@ -26,8 +27,11 @@ picam2.set_controls({
 })
 
 # picam2.set_controls({
-#     "FrameDurationLimits": (2000, 2000),  # Targeting 500 fps (if supported)
+#     "FrameDurationLimits": (55, 65),  # Targeting 500 fps (if supported)
 # })
+picam2.set_controls({
+    "FrameDurationLimits": (2000, 2000),  # Targeting 500 fps (if supported)
+})
 
 picam2.start()
 
