@@ -1,0 +1,18 @@
+rasperry-pi os
+
+sudo apt install -y python3-picamera2
+
+venv
+
+sudo apt install -y python3-picamera2
+python3 -m venv --system-site-packages /home/pi/GIT_repositories/RPI_Global_Shutter_Cam/.venv
+source /home/pi/GIT_repositories/RPI_Global_Shutter_Cam/.venv/bin/activate
+pip install flask opencv-python-headless
+
+conda
+
+conda create -n cam-env python=3.11.2 -y
+conda activate cam-env
+echo "/usr/lib/python3/dist-packages" > $CONDA_PREFIX/lib/python3.11/site-packages/system_packages.pth
+pip install flask opencv-python-headless
+
